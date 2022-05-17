@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel wish list</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style_modal.css"> -->
     <script src="script.js" defer></script>
+    <!-- <script src="modal.js" defer></script> -->
   </head>
   <body>
+    <div id="backdrop"></div>
     <header id="welcome">
       <h1>Добро пожаловать!</h1>
       <h2>
@@ -23,15 +26,21 @@
         <nav class="continents-list">
           <ul>
             <li>
-              <a class="continents-item" href="info/Europe.html" target="_blank">Европа</a>
+              <a class="continents-item" href="info/Europe.html" target="_blank"
+                >Европа</a
+              >
             </li>
             <li>
-              <a
-                class="continents-item"
-                href="info/Asia.html"
-                target="_blank"
+              <a class="continents-item" href="info/Asia.html" target="_blank"
+                >Азия</a>
+              <!-- <a class="continents-item" href="#" data-text="Музей Лувра (фр. Musée du Louvre) — один из крупнейших и старейших
+              музеев с богатой историей коллекционирования художественных и
+              исторических реликвий Франции. В Лувре собиралось всё, этот музей
+              можно назвать универсальным. Его коллекции покрывают огромные
+              географические и временные пространства. В 2018 году число посетителей
+              Лувра превысило 10 млн человек, что является рекордом."
                 >Азия</a
-              >
+              > -->
             </li>
             <li>
               <a
@@ -58,10 +67,7 @@
               >
             </li>
             <li>
-              <a
-                class="continents-item"
-                href="info/Africa.html"
-                target="_blank"
+              <a class="continents-item" href="info/Africa.html" target="_blank"
                 >Африка</a
               >
             </li>
