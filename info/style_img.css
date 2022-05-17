@@ -70,7 +70,7 @@ div.variant {
     height: 660px;
   /* margin: 0 30px 32px 30px; */
   margin: 0 48px 32px 48px;
-  padding: 5px  32px 32px 32px;
+  padding: 0px  32px 32px 32px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   background: white;
   border-radius: 10px;
