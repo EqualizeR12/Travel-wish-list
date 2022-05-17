@@ -99,7 +99,22 @@ iframe {
   margin-right: 3.5px;
   margin-bottom: 8px;
 }
-
+.item__video {
+  text-align: center;
+  color: #ffd500;
+}
+.item__video h4 {
+  margin-top: 8px;
+}
+video {
+  width: 260px;
+  height: 190px;
+  display: flex;
+  /* border-radius: 6%; */
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-bottom: 8px;
+}
 .variant {
   /* margin-left: 750px; */
   font-weight: bold;
