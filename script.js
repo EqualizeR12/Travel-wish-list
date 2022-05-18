@@ -57,11 +57,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
-const hotels = document.querySelectorAll('.variant');
-hotels.addEventListener('click', () => {
-  location.href = 'hotels\hotels.html';
-});
-
   createTravelList(travelWishList.travels, travelList);
 });
